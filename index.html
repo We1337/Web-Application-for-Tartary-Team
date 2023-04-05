@@ -2,20 +2,79 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Tartary</title>
-
-        <link rel="stylesheet" href="css/style.css">
-        
+        <title>Simple Bulma Page Example</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
+        <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
-        <div class="stack" style="--stacks: 3;">
-            <span style="--index: 0;">S00N</span>
-            <span style="--index: 1;">S00N</span>
-            <span style="--index: 2;">S00N</span>
+    
+        <div>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="index.html">
+                            <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHero1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHero1" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active">
+                                Home
+                            </a>
+                            <a class="navbar-item">
+                                CTF
+                            </a>
+                            <a class="navbar-item">
+                                Team
+                            </a>
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <div class="navbar-link">
+                                    More
+                                </div>
+                                <div id="moreDropdown" class="navbar-dropdown">
+                                    <a class="navbar-item " href="#">
+                                        <div class="level is-mobile">
+                                            <div class="level-left">
+                                                <div class="level-item">
+                                                    <p>
+                                                        <strong>GitHub</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="navbar-item " href="#">
+                                        <div class="level is-mobile">
+                                            <div class="level-left">
+                                                <div class="level-item">
+                                                    <p>
+                                                        <strong>Discord</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
 
-    </body>
+        <div class="containers">
+	        <header data-content="Watch ctf">Tartary</header>
+        </div>
+
+
+    <script src="/js/action.js"></script>
+
+  </body>
 </html>
