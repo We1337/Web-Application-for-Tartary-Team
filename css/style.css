@@ -1,3 +1,24 @@
+/* DefCon fonts */
+@font-face {
+	font-family: 'Defcon';
+	src: url('/fonts/demo-sbdefcon-headlinea.otf');
+}
+
+/* Fonts */
+body {
+	font-family: 'Defcon';
+}
+
+/* Glitch effect */
+:root {
+	--header_font-size: 140px;
+	--random-letter_font-size: 48px;
+	--loading-bar_width: 500px;
+	--loading-bar_height: 28px;
+	--loading-bar_border: 3px;
+	--dark-mode_transition-time: .25s;
+}
+
 .containers {
 	--color_primary: rgb(010, 010, 010);
 	--color_secondary: rgb(245, 245, 245);
@@ -9,7 +30,6 @@
 	width: 100%;
 	background: var(--color_primary);
 	color: var(--color_secondary);
-	font-family: Hack, monospace;
 	transition-duration: var(--dark-mode_transition-time);
 	overflow: hidden;
 }
