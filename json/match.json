@@ -1,14 +1,4 @@
-{
-    "0": {
-        "title": "VishwaCTF",
-        "website": "https://vishwactf.com/",
-        "place": "",
-        "score": "0"
-    },
-    "1": {
-        "title": "Summit CTF",
-        "website": "https://summit.ctfd.io/",
-        "place": "",
-        "score": ""
-    }
-}
+{"ctf": [
+    { "name": "VishwaCTF", "link": "https://vishwactf.com/", "place": "-", "score": "-" },
+    { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "place": "-", "score": "-" }
+]}
