@@ -1,12 +1,7 @@
-/* DefCon fonts */
-@font-face {
-	font-family: 'Defcon';
-	src: url('/fonts/demo-sbdefcon-headlinea.otf');
-}
-
 /* Fonts */
 body {
-	font-family: 'Defcon';
+	font-family: 'monospace', 'sans-serif';
+	font-weight: bold;
 }
 
 /* Glitch effect */
