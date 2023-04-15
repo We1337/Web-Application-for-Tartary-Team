@@ -1,4 +1,5 @@
 {"ctf": [
     { "name": "VishwaCTF", "link": "https://vishwactf.com/", "place": "-", "score": "-" },
-    { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "place": "-", "score": "-" }
+    { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "place": "-", "score": "-" },
+    { "name": "Wayne State University - CTF", "link": "https://waynestate-ctf.ctfd.io/", "place": "-", "score": "-"}
 ]}
