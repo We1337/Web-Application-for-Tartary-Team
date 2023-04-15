@@ -1,16 +1,24 @@
 fetch('../json/match.json').then(response => response.json()).then(data => {
 
-    const possition = document.getElementById("possition");
-    const title = document.getElementById("title");
-    const place = document.getElementById("place");
-    const score = document.getElementById("score");
+    let tableBody = document.getElementById("table-body");
+    
 
-    //console.log(data);
+    for(let i = 0; i < data["ctf"].length; i++) {
+        var row = document.createElement("tr");
+        var position = document.createElement("th");
+        var title = document.createElement("th");
+        var place = document.createElement("th");
+        var score = document.createElement("th");
 
-    console.log(data.length);
+        position.innerHTML = i + 1;
+        title.innerHTML = '<a href="' + data.ctf[i].link + '" title="' + data.ctf[i].name + '">' + data.ctf[i].name + '</a>';
+        place.innerHTML = '<abbr title="Position">' + data.ctf[i].place + '</abbr>'
+        score.innerHTML = data.ctf[i].score;
 
-    for(let i = 0; i < data.length; i++) {
-        console.log(i);
+        row.appendChild(position);
+        row.appendChild(title);
+        row.appendChild(place);
+        row.appendChild(score);
+        tableBody.appendChild(row);
     }
-
 });
