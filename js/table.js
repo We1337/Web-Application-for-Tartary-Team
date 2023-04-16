@@ -4,11 +4,11 @@ fetch('../json/match.json').then(response => response.json()).then(data => {
     
     // Display table from json file
     for(let i = 0; i < data["ctf"].length; i++) {
-        var row = document.createElement("tr");
-        var position = document.createElement("th");
-        var title = document.createElement("th");
-        var place = document.createElement("th");
-        var score = document.createElement("th");
+        const row = document.createElement("tr");
+        const position = document.createElement("th");
+        const title = document.createElement("th");
+        const place = document.createElement("th");
+        const score = document.createElement("th");
 
         position.innerHTML = i + 1;
         title.innerHTML = '<a href="' + data.ctf[i].link + '" title="' + data.ctf[i].name + '">' + data.ctf[i].name + '</a>';
