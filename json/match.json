@@ -1,6 +1,6 @@
 {"ctf": [
     { "name": "VishwaCTF", "link": "https://vishwactf.com/", "place": "-", "score": "-" },
     { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "place": "-", "score": "-" },
-    { "name": "Wayne State University - CTF", "link": "https://waynestate-ctf.ctfd.io/", "place": "-", "score": "-"},
+    { "name": "Wayne State University - CTF", "link": "https://waynestate-ctf.ctfd.io/", "place": "85", "score": "20"},
     { "name": "Texas Security Awareness Week 2023", "link": "https://www.texsaw2023.com/", "place": "-", "score": "-"}
 ]}
