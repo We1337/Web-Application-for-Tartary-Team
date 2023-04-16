@@ -2,7 +2,7 @@ fetch('../json/match.json').then(response => response.json()).then(data => {
 
     let tableBody = document.getElementById("table-body");
     
-
+    // Display table from json file
     for(let i = 0; i < data["ctf"].length; i++) {
         var row = document.createElement("tr");
         var position = document.createElement("th");
