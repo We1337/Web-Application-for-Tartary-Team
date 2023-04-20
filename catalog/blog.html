@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>CTF event</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>CTF event</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/blog.css">
 
-</head>
+    </head>
 
-<body>
-    <div>
+    <body>
+
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-brand">
@@ -27,6 +28,9 @@
                     <div class="navbar-end">
                         <a class="navbar-item" href="team.html">
                             Team
+                        </a>
+                        <a class="navbar-item" href="ctf.html">
+                            CTF event
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <div class="navbar-link">
@@ -50,48 +54,28 @@
                 </div>
             </div>
         </nav>
-    </div>
 
-    <br>
+        <br>
+        <div class="container-center">
+        <section class="container" id="table" border-radiou>
+            <div id="markdown-container"></div>
+        </section>
+        </div>
 
-    <section class="container" id="table" border-radiou>
-        <div id="markdown-container"></div>
+        <br><br><br>
+
+        <div class="footer">
+            <div class="content has-text-centered">
+                <a href="https://github.com/We1337/tartary.github.com">GitHub</a>
+                <a href="https://discord.gg/VBaF3qrz">Discord</a>
+                <a href="https://twitter.com/We_1337">Twitter</a>
+            </div>
+            <hr>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+        <script src="../js/action.js"></script>
+        <script src="../js/markdown.js"></script>
 
-        <script>
-            fetch('https://raw.githubusercontent.com/We1337/We1337/main/README.md').then(response => response.text())
-            .then(data => {
-                console.log(data);
-                let converter = new showdown.Converter();
-                let md = data;
-                let html = converter.makeHtml(md);
-                document.querySelector('#markdown-container').innerHTML = html;
-            });
-
-
-            const myDiv = document.getElementById('markdown-container'); // Get the element by its ID
-            myDiv.style.backgroundColor = 'black'; // Set the background color to darkgray
-            myDiv.style.color = 'white'; // Set the text color to white
-
-
-        </script>
-    </section>
-
-    <br><br><br>
-
-    <div class="footer">
-        <div class="content has-text-centered">
-            <a href="https://github.com/We1337/tartary.github.com">GitHub</a>
-            <a href="https://discord.gg/VBaF3qrz">Discord</a>
-            <a href="https://twitter.com/We_1337">Twitter</a>
-        </div>
-        <hr>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
-    <script src="../js/action.js"></script>
-    <script src="../js/table.js"></script> 
-
-</body>
+    </body>
 </html>
