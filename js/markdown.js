@@ -3,4 +3,4 @@ fetch('https://raw.githubusercontent.com/We1337/Roadmap-study/main/Cyber%20Secur
     let md = data;
     let html = converter.makeHtml(md);
     document.querySelector('#markdown-container').innerHTML = html;
-}).catch()
+})
