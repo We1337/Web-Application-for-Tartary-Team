@@ -4,11 +4,6 @@ body {
 	font-weight: bold;
 }
 
-.lower-text {
-	font-size: 40px;
-	padding-left: 500px;
-}
-
 /* Glitch effect */
 :root {
 	--header_font-size: 140px;
