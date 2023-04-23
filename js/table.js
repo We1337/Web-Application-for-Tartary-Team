@@ -1,8 +1,9 @@
+/* Fetch match.json */
 fetch('../json/match.json').then(response => response.json()).then(data => {
 
     let tableBody = document.getElementById("table-body");
     
-    // Display table from json file
+    // Display ctf table
     for(let i = 0; i < data["ctf"].length; i++) {
         const row = document.createElement("tr");
         const position = document.createElement("th");
