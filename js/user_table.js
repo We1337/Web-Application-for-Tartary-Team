@@ -1,10 +1,11 @@
+/* Fetch list of team */
 fetch('../json/team.json').then(response => response.json()).then(data => {
 
     let tableBody = document.getElementById("users-body");
     
-    // Display users from json file
+    // Display users
     for(let i = 0; i < data["team"].length; i++) {
-        const row = document.createElement("th");
+        const row = document.createElement("tr");
         const position = document.createElement("th");
         const names = document.createElement("th");
         const skils = document.createElement("th");
