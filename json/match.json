@@ -1,12 +1,12 @@
 {"ctf": [
-    { "name": "Ricerca CTF 2023", "link": "https://2023.ctf.ricsec.co.jp/", "place": "-", "score": "-" },
-    { "name": "BSidesSF CTF 2023", "link": "https://ctf.bsidessf.net/", "place": "-", "score": "-" },
-    { "name": "ångstromCTF 2023", "link": "https://angstromctf.com/", "place": "-", "score": "-" },
-    { "name": "Space Heroes CTF", "link": "https://spaceheroes.ctfd.io/", "place": "-", "score": "-" },
-    { "name": "Codeby Games CTF", "link": "https://event.codeby.games/", "place": "-", "score": "-" },
-    { "name": "CyberHavoc CTF", "link": "https://ctf.cyberhavoc.in/", "place": "-", "score": "-" },
-    { "name": "Texas Security Awareness Week 2023", "link": "https://www.texsaw2023.com/", "place": "200", "score": "110" },
-    { "name": "Wayne State University - CTF", "link": "https://waynestate-ctf.ctfd.io/", "place": "85", "score": "20" },
-    { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "place": "-", "score": "-" },
-    { "name": "VishwaCTF", "link": "https://vishwactf.com/", "place": "-", "score": "-" }
+    { "name": "Ricerca CTF 2023", "link": "https://2023.ctf.ricsec.co.jp/", "rank": "-", "score": "-" },
+    { "name": "BSidesSF CTF 2023", "link": "https://ctf.bsidessf.net/", "rank": "-", "score": "-" },
+    { "name": "ångstromCTF 2023", "link": "https://angstromctf.com/", "rank": "-", "score": "-" },
+    { "name": "Space Heroes CTF", "link": "https://spaceheroes.ctfd.io/", "rank": "-", "score": "-" },
+    { "name": "Codeby Games CTF", "link": "https://event.codeby.games/", "rank": "-", "score": "-" },
+    { "name": "CyberHavoc CTF", "link": "https://ctf.cyberhavoc.in/", "rank": "-", "score": "-" },
+    { "name": "Texas Security Awareness Week 2023", "link": "https://www.texsaw2023.com/", "rank": "200", "score": "110" },
+    { "name": "Wayne State University - CTF", "link": "https://waynestate-ctf.ctfd.io/", "rank": "85", "score": "20" },
+    { "name": "Summit CTF", "link": "https://summit.ctfd.io/", "rank": "-", "score": "-" },
+    { "name": "VishwaCTF", "link": "https://vishwactf.com/", "rank": "-", "score": "-" }
 ]}
