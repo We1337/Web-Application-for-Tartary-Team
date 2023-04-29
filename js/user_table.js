@@ -1,7 +1,10 @@
 /* Fetch list of team */
 fetch('../json/team.json').then(response => response.json()).then(data => {
 
-    let tableBody = document.getElementById("users-body");
+    let tableBody = document.getElementById("team-body");
+    
+    const titleElement = "<tr><th> # </th><th> CTF title </th><th> Rank </th></tr>";
+    document.getElementById("team-body").innerHTML = titleElement;
     
     // Display users
     for(let i = 0; i < data["team"].length; i++) {
