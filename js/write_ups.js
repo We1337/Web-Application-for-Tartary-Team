@@ -1,7 +1,11 @@
 fetch('../json/writeups.json').then(response => response.json()).then(data => {
 
-    let tableBody = document.getElementById("writeups-body");
-    
+    let tableBody = document.getElementById("body-writeups");
+   
+    /* Display Title, Skills */
+    const titleElement = "<tr><th> # </th><th> Title </th><th> Skills </th></tr>";
+    document.getElementById("body-writeups").innerHTML = titleElement;
+
     // Display writeups
     for(let i = 0; i < data["writeups"].length; i++) {
         const row = document.createElement("tr");
