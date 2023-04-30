@@ -1,9 +1,9 @@
 /* Fetch list of team */
 fetch('../json/team.json').then(response => response.json()).then(data => {
 
-    let tableBody = document.getElementById("team-body");
+    const tableBody = document.getElementById("team-body");
     
-    const titleElement = "<tr><th> # </th><th> Nick Name </th><th> Skils </th></tr>";
+    const titleElement = "<tr><th> # </th><th> Nick Name </th><th> Skills </th></tr>";
     document.getElementById("team-body").innerHTML = titleElement;
     
     // Display users
