@@ -3,7 +3,7 @@ fetch('../json/team.json').then(response => response.json()).then(data => {
 
     let tableBody = document.getElementById("team-body");
     
-    const titleElement = "<tr><th> # </th><th> CTF title </th><th> Rank </th></tr>";
+    const titleElement = "<tr><th> # </th><th> Nick Name </th><th> Skils </th></tr>";
     document.getElementById("team-body").innerHTML = titleElement;
     
     // Display users
