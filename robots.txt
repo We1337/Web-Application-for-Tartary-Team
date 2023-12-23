@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /js/markdown.js
+Disallow: /images/
+Disallow: /js/
+Disallow: /json/
+Disallow: /node_modules/
+Disallow: README.md
