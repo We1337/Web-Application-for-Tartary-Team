@@ -1,7 +1,5 @@
 # Tartray CTF team
 
-Visit: https://we1337.github.io/tartary.github.com/
-
 ![Preview page](/preview.gif)
 
 ### Introduction
