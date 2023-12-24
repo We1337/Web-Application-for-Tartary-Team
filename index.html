@@ -1,97 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Tartary</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+<head>
 
-        <meta name="description" content="Welcome to Tartary – your go-to platform for all things Capture The Flag (CTF) and cybersecurity! Explore an exciting world of CTF events, dive into write-ups that unravel the intricacies of challenges, and connect with a thriving cybersecurity community. Tartary is your gateway to the latest CTF events, insightful team information, and in-depth write-ups, all presented in a user-friendly and engaging format. Join us in the pursuit of knowledge, skill-building, and collaboration within the cybersecurity domain. Elevate your CTF experience with Tartary – where challenges become opportunities to grow!">
-        <meta name="keywords" content="CTF, Capture The Flag, security, cybersecurity, write-ups">
-        <meta name="author" content="We1337">
-        
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
+    <meta charset="UTF-8">
+    <title>Tartary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+    <meta name="description"
+        content="Welcome to Tartary – your go-to platform for all things Capture The Flag (CTF) and cybersecurity! Explore an exciting world of CTF events, dive into write-ups that unravel the intricacies of challenges, and connect with a thriving cybersecurity community. Tartary is your gateway to the latest CTF events, insightful team information, and in-depth write-ups, all presented in a user-friendly and engaging format. Join us in the pursuit of knowledge, skill-building, and collaboration within the cybersecurity domain. Elevate your CTF experience with Tartary – where challenges become opportunities to grow!">
+    <meta name="keywords" content="CTF, Capture The Flag, security, cybersecurity, write-ups">
+    <meta name="author" content="We1337">
 
-        <!-- Open Graph Tags for Social Media -->
-        <meta property="og:title" content="Tartary">
-        <meta property="og:description" content="Unlock the secrets of Capture The Flag challenges at Tartary! 🚀 Explore CTF events, dive into insightful write-ups, and connect with the vibrant cybersecurity community. Elevate your skills and join the adventure! 🔐 #CTF #Cybersecurity #Tartary">
-        <meta property="og:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
-        <meta property="og:url" content="https://we1337.github.io/Web-Application-for-Tartary-Team/">
-        <meta name="twitter:card" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
-        
-        <!-- Canonical URL to avoid duplicate content issues -->
-        <link rel="canonical" href="https://we1337.github.io/Web-Application-for-Tartary-Team/">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
 
-    </head>
-    <body>
-        <div>
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="./index.html">
-                            <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png" alt="Logo">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Tartary">
+    <meta property="og:description"
+        content="Unlock the secrets of Capture The Flag challenges at Tartary! 🚀 Explore CTF events, dive into insightful write-ups, and connect with the vibrant cybersecurity community. Elevate your skills and join the adventure! 🔐 #CTF #Cybersecurity #Tartary">
+    <meta property="og:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
+    <meta property="og:url" content="https://we1337.github.io/Web-Application-for-Tartary-Team/">
+    <meta name="twitter:card" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
+
+    <!-- Canonical URL to avoid duplicate content issues -->
+    <link rel="canonical" href="https://we1337.github.io/Web-Application-for-Tartary-Team/">
+
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="./index.html">
+                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png"
+                            alt="Logo">
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenuHero1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHero1" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="./src/ctf.html">
+                            CTF-Event
                         </a>
-                        <span class="navbar-burger burger" data-target="navbarMenuHero1">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navbarMenuHero1" class="navbar-menu">
-                        <div class="navbar-end">
-                            <a class="navbar-item" href="./src/ctf.html">
-                                CTF-Event
-                            </a>
-                            <a class="navbar-item" href="./src/team.html">
-                                CTF-Team
-                            </a>
-                            <a class="navbar-item" href="./src/writeups.html">
-                                Write-ups
-                            </a>
-                            <div class="navbar-item has-dropdown is-hoverable">
-                                <div class="navbar-link">
-                                    More
-                                </div>
-                                <div id="moreDropdown" class="navbar-dropdown">
-                                    <a class="navbar-item " href="./src/about.html">
-                                        <div class="level is-mobile">
-                                            <div class="level-left">
-                                                <div class="level-item">
-                                                    <p>
-                                                        <strong>About</strong>
-                                                    </p>
-                                                </div>
+                        <a class="navbar-item" href="./src/team.html">
+                            CTF-Team
+                        </a>
+                        <a class="navbar-item" href="./src/writeups.html">
+                            Write-ups
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <div class="navbar-link">
+                                More
+                            </div>
+                            <div id="moreDropdown" class="navbar-dropdown">
+                                <a class="navbar-item " href="./src/about.html">
+                                    <div class="level is-mobile">
+                                        <div class="level-left">
+                                            <div class="level-item">
+                                                <p>
+                                                    <strong>About</strong>
+                                                </p>
                                             </div>
                                         </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-
-        <div class="containers">
-	        <header data-content="CTF RII">Tartary</header>
-            <p><a href="./src/team.html">Team</a></p>
-        </div>
-
-        <div class="footer">
-            <div class="content has-text-centered">
-                <a href="https://github.com/We1337/tartary.github.com">GitHub</a>
-                <a href="https://discord.gg/VBaF3qrz">Discord</a>
-                <a href="https://twitter.com/We_1337">Twitter</a>
             </div>
-            <hr>
-        </div>
+        </nav>
+    </div>
 
-        <script src="./js/action.js"></script>
-    </body>
+    <div class="containers">
+        <header data-content="CTF RII">Tartary</header>
+        <p><a href="./src/team.html">Team</a></p>
+    </div>
+
+    <div class="footer">
+        <div class="content has-text-centered">
+            <a href="https://github.com/We1337/tartary.github.com">GitHub</a>
+            <a href="https://discord.gg/VBaF3qrz">Discord</a>
+            <a href="https://twitter.com/We_1337">Twitter</a>
+        </div>
+        <hr>
+    </div>
+
+    <script src="./js/action.js"></script>
+
+</body>
 </html>
