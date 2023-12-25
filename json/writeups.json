@@ -1,5 +1,4 @@
 {"writeups": [
-    { "title": "Welcome Challenge", "link": "https://github.com/We1337/ctf-write-ups/blob/main/Wayne%20State%20University%20-%20CTF/Welcome%20Challenge.md", "topic": ["osint"] },
-    { "title": "Unix logging", "link": "https://github.com/We1337/ctf-write-ups/blob/main/Wayne%20State%20University%20-%20CTF/Unix%20logging.md", "topic": ["unix", "command line"] },
-    { "title": "Print a Flag", "link": "https://github.com/We1337/ctf-write-ups/blob/main/Wayne%20State%20University%20-%20CTF/Print%20a%20Flag.md", "topic": ["coding", "programming"] }
+    { "title": " ", "link": "", "topic": [""] },
+    {}
 ]}
