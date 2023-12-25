@@ -35,9 +35,9 @@
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="../index.html">
+                    <a class="navbar-item" href="./index.html">
                         <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png"
-                            alt="RII Group Logo">
+                            alt="Logo">
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHero1">
                         <span></span>
@@ -45,7 +45,37 @@
                         <span></span>
                     </span>
                 </div>
-                <!-- ... (rest of the navigation remains unchanged) ... -->
+                <div id="navbarMenuHero1" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="./src/ctf.html">
+                            CTF-Event
+                        </a>
+                        <a class="navbar-item" href="./src/team.html">
+                            CTF-Team
+                        </a>
+                        <a class="navbar-item" href="./src/writeups.html">
+                            Write-ups
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <div class="navbar-link">
+                                More
+                            </div>
+                            <div id="moreDropdown" class="navbar-dropdown">
+                                <a class="navbar-item " href="./src/about.html">
+                                    <div class="level is-mobile">
+                                        <div class="level-left">
+                                            <div class="level-item">
+                                                <p>
+                                                    <strong>About</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </div>
@@ -71,5 +101,4 @@
 
     <script src="../js/action.js"></script>
 </body>
-
 </html>

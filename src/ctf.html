@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
+    <meta name="description"
+        content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
     <meta name="keywords" content="CTF, Capture The Flag, cybersecurity, challenges, teamwork">
     <meta name="author" content="We1337">
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="CTF Event - Challenges, Teamwork, and Cybersecurity Excitement">
-    <meta property="og:description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
+    <meta property="og:description"
+        content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
     <meta property="og:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
     <meta property="og:url" content="https://yourwebsite.com/ctf.html">
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
     <meta name="twitter:title" content="CTF Event - Challenges, Teamwork, and Cybersecurity Excitement">
-    <meta name="twitter:description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
+    <meta name="twitter:description"
+        content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
     <meta name="twitter:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
 
     <title>CTF Event - Challenges, Teamwork, and Cybersecurity Excitement</title>
@@ -24,13 +28,15 @@
     <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <div>
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="../index.html">
-                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png" alt="CTF Event Logo">
+                    <a class="navbar-item" href="./index.html">
+                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png"
+                            alt="Logo">
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHero1">
                         <span></span>
@@ -38,7 +44,37 @@
                         <span></span>
                     </span>
                 </div>
-                <!-- ... (rest of the navigation remains unchanged) ... -->
+                <div id="navbarMenuHero1" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="./src/ctf.html">
+                            CTF-Event
+                        </a>
+                        <a class="navbar-item" href="./src/team.html">
+                            CTF-Team
+                        </a>
+                        <a class="navbar-item" href="./src/writeups.html">
+                            Write-ups
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <div class="navbar-link">
+                                More
+                            </div>
+                            <div id="moreDropdown" class="navbar-dropdown">
+                                <a class="navbar-item " href="./src/about.html">
+                                    <div class="level is-mobile">
+                                        <div class="level-left">
+                                            <div class="level-item">
+                                                <p>
+                                                    <strong>About</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </div>
@@ -61,4 +97,5 @@
     <script src="../js/action.js" defer></script>
     <script src="../js/ctf_table.js" defer></script>
 </body>
+
 </html>
