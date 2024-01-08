@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-    <title>Tartary</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CTF Event - Challenges, Teamwork, and Cybersecurity Excitement</title>
 
-    <meta name="description"
-        content="Welcome to Tartary – your go-to platform for all things Capture The Flag (CTF) and cybersecurity! Explore an exciting world of CTF events, dive into write-ups that unravel the intricacies of challenges, and connect with a thriving cybersecurity community. Tartary is your gateway to the latest CTF events, insightful team information, and in-depth write-ups, all presented in a user-friendly and engaging format. Join us in the pursuit of knowledge, skill-building, and collaboration within the cybersecurity domain. Elevate your CTF experience with Tartary – where challenges become opportunities to grow!">
-    <meta name="keywords" content="CTF, Capture The Flag, security, cybersecurity, write-ups">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
+    <meta name="keywords" content="CTF, Capture The Flag, cybersecurity, challenges, teamwork">
     <meta name="author" content="We1337">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!-- Open Graph Tags for Social Media -->
-    <meta property="og:title" content="Tartary">
-    <meta property="og:description"
-        content="Unlock the secrets of Capture The Flag challenges at Tartary! 🚀 Explore CTF events, dive into insightful write-ups, and connect with the vibrant cybersecurity community. Elevate your skills and join the adventure! 🔐 #CTF #Cybersecurity #Tartary">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="CTF Event - Challenges, Teamwork, and Cybersecurity Excitement">
+    <meta property="og:description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
     <meta property="og:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
     <meta property="og:url" content="https://we1337.github.io/Web-Application-for-Tartary-Team/">
+
+    <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
+    <meta name="twitter:title" content="CTF Event - Challenges, Teamwork, and Cybersecurity Excitement">
+    <meta name="twitter:description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and cybersecurity excitement.">
+    <meta name="twitter:image" content="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
 
-    <!-- Canonical URL to avoid duplicate content issues -->
-    <link rel="canonical" href="https://we1337.github.io/Web-Application-for-Tartary-Team/">
-
+    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/nuclear/bulmaswatch.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -37,8 +31,9 @@
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="./index.html">
-                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png" alt="Logo">
+                    <a class="navbar-item" href="../../index.html">
+                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png"
+                            alt="Logo">
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHero1">
                         <span></span>
@@ -48,37 +43,37 @@
                 </div>
                 <div id="navbarMenuHero1" class="navbar-menu">
                     <div class="navbar-end">
-                        <a id="navevents" class="navbar-item" href="./template/ctf.html">
+                        <a class="navbar-item" href="../src-en/ctf.html">
                             CTF-Event
                         </a>
-                        <a id="navteam" class="navbar-item" href="./template/team.html">
+                        <a class="navbar-item" href="../src-en/team.html">
                             CTF-Team
                         </a>
-                        <a id="navwriteups" class="navbar-item" href="./template/writeups.html">
+                        <a class="navbar-item" href="../src-en/writeups.html">
                             Write-ups
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
-                            <div id="navmore" class="navbar-link">
+                            <div class="navbar-link">
                                 More
                             </div>
                             <div id="moreDropdown" class="navbar-dropdown">
-                                <a class="navbar-item " href="./template/about.html">
+                                <a class="navbar-item " href="../src-en/about.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong id="navabout">About</strong>
+                                                    <strong>About</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item " href="./template/contact.html">
+                                <a class="navbar-item " href="../src-en/contact.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong id="navcontact">Contact</strong>
+                                                    <strong>Contact</strong>
                                                 </p>
                                             </div>
                                         </div>
@@ -87,38 +82,38 @@
                             </div>
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
-                            <div id="navlanguage" class="navbar-link">
+                            <div class="navbar-link">
                                 Language
                             </div>
                             <div id="moreDropdown" class="navbar-dropdown">
-                                <a class="navbar-item" href="#" onclick="loadLanguageen()">
+                                <a class="navbar-item" href="../../index.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong id="navlanguageen">English</strong>
+                                                    <strong>English</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item" href="#" onclick="loadLanguagekk()">
+                                <a class="navbar-item" href="../../index.kz.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong id="navlanguagekk">Kazakh</strong>
+                                                    <strong>Kazakh</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item" href="#" onclick="loadLanguageru()">
+                                <a class="navbar-item" href="../../index.ru.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong id="navlanguageru">Russian</strong>
+                                                    <strong>Russian</strong>
                                                 </p>
                                             </div>
                                         </div>
@@ -132,24 +127,22 @@
         </nav>
     </div>
 
-    <div class="containers">
-        <header data-content="CTF RII">Tartary</header>
-        <p><a href="/pages/src-en/team.html" id="heroteam">Team</a></p>
-    </div>
+    <section class="container" id="table">
+        <table class="table">
+            <tbody id="table-body"></tbody>
+        </table>
+    </section>
 
     <div class="footer">
         <div class="content has-text-centered">
-            <a href="https://github.com/We1337/Web-Application-for-Tartary-Team">GitHub</a>
-            <a href="https://twitter.com/We_1337">X</a>
+            <a href="https://github.com/We1337/tartary.github.com" rel="nofollow">GitHub</a>
+            <a href="https://twitter.com/We_1337" rel="nofollow">Twitter</a>
         </div>
         <hr>
     </div>
 
-    <script src="./assets/js/action.js"></script>
-    <script src="./assets/language/language-en.js"></script>
-    <script src="./assets/language/language-kz.js"></script>
-    <script src="./assets/language/language-ru.js"></script>
-
+    <script src="../../assets/js/action.js" defer></script>
+    <script src="../../assets/js/ctf_table.js" defer></script>
 </body>
 
 </html>
