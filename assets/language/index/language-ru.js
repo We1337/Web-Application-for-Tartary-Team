@@ -9,5 +9,5 @@ function loadLanguageru() {
     document.getElementById('navlanguageen').textContent = "Английский";
     document.getElementById('navlanguagekk').textContent = "Казахский";
     document.getElementById('navlanguageru').textContent = "Русский";
-    document.getElementById('heroteam').textContent = "Команда";
-}
+    document.getElementById('heroteam').textContent = "Команда"; 
+};

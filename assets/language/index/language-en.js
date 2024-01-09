@@ -10,4 +10,4 @@ function loadLanguageen() {
     document.getElementById('navlanguagekk').textContent = "Kazakh";
     document.getElementById('navlanguageru').textContent = "Russian";
     document.getElementById('heroteam').textContent = "Team";
-}
+};

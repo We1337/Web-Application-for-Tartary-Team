@@ -10,5 +10,4 @@ function loadLanguagekk() {
     document.getElementById('navlanguagekk').textContent = "Қазақша";
     document.getElementById('navlanguageru').textContent = "Орысша";
     document.getElementById('heroteam').textContent = "Команда";
-}
-
+};

@@ -10,6 +10,9 @@
     <meta name="keywords" content="CTF, Capture The Flag, cybersecurity, challenges, teamwork, write-ups">
     <meta name="author" content="We1337">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png">
+
     <!-- Open Graph Tags -->
     <meta property="og:title" content="CTF Event - Challenges, Teamwork, and Exciting Write-ups">
     <meta property="og:description" content="Explore the latest details and results of our Capture The Flag (CTF) event. Join us for challenges, teamwork, and exciting write-ups.">
@@ -31,9 +34,8 @@
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="../../index.html">
-                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png"
-                            alt="Logo">
+                    <a class="navbar-item" href="../index.html">
+                        <img src="https://ctftime.org/media/cache/31/35/3135f4d3b902ac2e32636123e6e98f2d.png" alt="Logo">
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHero1">
                         <span></span>
@@ -43,37 +45,37 @@
                 </div>
                 <div id="navbarMenuHero1" class="navbar-menu">
                     <div class="navbar-end">
-                        <a class="navbar-item" href="../src-en/ctf.html">
+                        <a id="navevents" class="navbar-item" href="../template/ctf.html">
                             CTF-Event
                         </a>
-                        <a class="navbar-item" href="../src-en/team.html">
+                        <a id="navteam" class="navbar-item" href="../template/team.html">
                             CTF-Team
                         </a>
-                        <a class="navbar-item" href="../src-en/writeups.html">
+                        <a id="navwriteups" class="navbar-item" href="../template/writeups.html">
                             Write-ups
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
-                            <div class="navbar-link">
+                            <div id="navmore" class="navbar-link">
                                 More
                             </div>
                             <div id="moreDropdown" class="navbar-dropdown">
-                                <a class="navbar-item " href="../src-en/about.html">
+                                <a class="navbar-item " href="../template/about.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong>About</strong>
+                                                    <strong id="navabout">About</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item " href="../src-en/contact.html">
+                                <a class="navbar-item " href="../template/contact.html">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong>Contact</strong>
+                                                    <strong id="navcontact">Contact</strong>
                                                 </p>
                                             </div>
                                         </div>
@@ -82,38 +84,38 @@
                             </div>
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
-                            <div class="navbar-link">
+                            <div id="navlanguage" class="navbar-link">
                                 Language
                             </div>
                             <div id="moreDropdown" class="navbar-dropdown">
-                                <a class="navbar-item" href="../../index.html">
+                                <a class="navbar-item" href="#" onclick="loadLanguageen()">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong>English</strong>
+                                                    <strong id="navlanguageen">English</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item" href="../../index.kz.html">
+                                <a class="navbar-item" href="#" onclick="loadLanguagekk()">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong>Kazakh</strong>
+                                                    <strong id="navlanguagekk">Kazakh</strong>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                <a class="navbar-item" href="../../index.ru.html">
+                                <a class="navbar-item" href="#" onclick="loadLanguageru()">
                                     <div class="level is-mobile">
                                         <div class="level-left">
                                             <div class="level-item">
                                                 <p>
-                                                    <strong>Russian</strong>
+                                                    <strong id="navlanguageru">Russian</strong>
                                                 </p>
                                             </div>
                                         </div>
@@ -125,7 +127,7 @@
                 </div>
             </div>
         </nav>
-    </div>
+    </div> 
 
     <section class="container" id="table">
         <table class="table">
@@ -133,16 +135,19 @@
         </table>
     </section>
 
-    <div class="footer">
-        <div class="content has-text-centered">
-            <a href="https://github.com/We1337/tartary.github.com" rel="nofollow">GitHub</a>
-            <a href="https://twitter.com/We_1337" rel="nofollow">Twitter</a>
-        </div>
-        <hr>
-    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            footer();
+        });
+    </script>
 
     <script src="../../assets/js/action.js" defer></script>
     <script src="../../assets/js/write_ups.js" defer></script>
+    <script src="../assets/language/language-en.js"></script>
+    <script src="../assets/language/language-kz.js"></script>
+    <script src="../assets/language/language-ru.js"></script>
+    <script src="../assets/footer.js"></script>
+
 </body>
 
 </html>
