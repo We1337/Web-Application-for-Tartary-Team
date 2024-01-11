@@ -1,7 +1,4 @@
 function loadLanguageen() {
-    document.getElementById('navevents').textContent = "CTF-Event";
-    document.getElementById('navteam').textContent = "CTF-Team";
-    document.getElementById('navwriteups').textContent = "Write-ups";
     document.getElementById('navmore').textContent = "More";
     document.getElementById('navabout').textContent = "About";
     document.getElementById('navcontact').textContent = "Contact";
@@ -9,5 +6,6 @@ function loadLanguageen() {
     document.getElementById('navlanguageen').textContent = "English";
     document.getElementById('navlanguagekk').textContent = "Kazakh";
     document.getElementById('navlanguageru').textContent = "Russian";
-    document.getElementById('heroteam').textContent = "Team";
+    document.getElementById('herocontact').textContent = "Contact Us";
+    document.getElementById('heroemail').textContent = "Email: weuser149@gmail.com";
 };

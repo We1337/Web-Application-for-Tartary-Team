@@ -1,7 +1,4 @@
-function loadLanguagekk() {
-    document.getElementById('navevents').textContent = "CTF-Жаңалықтар";
-    document.getElementById('navteam').textContent = "CTF-Команда";
-    document.getElementById('navwriteups').textContent = "Жазбалар";
+function loadLanguagekk() { 
     document.getElementById('navmore').textContent = "Көбірек";
     document.getElementById('navabout').textContent = "Туралы";
     document.getElementById('navcontact').textContent = "Байланыс";
