@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Address Location App</title>
+</head>
+<body>
+  <h1>IP Address Location App</h1>
+  <p id="ip-info">Loading...</p>
+
+  <script>
+    // Function to fetch IP address information
+    async function getIpInfo() {
+      try {
+        const response = await fetch('https://ipinfo.io/json');
+        const data = await response.json();
+        displayIpInfo(data);
+      } catch (error) {
+        console.error('Error fetching IP info:', error);
+        document.getElementById('ip-info').innerText = 'Error fetching IP info.';
+      }
+    }
+
+    // Function to display IP address information
+    function displayIpInfo(data) {
+      const ipInfoElement = document.getElementById('ip-info');
+      ipInfoElement.innerHTML = `
+        <strong>IP Address:</strong> ${data.ip}<br>
+        <strong>Location:</strong> ${data.city}, ${data.region}, ${data.country}<br>
+        <strong>ISP:</strong> ${data.org}
+      `;
+    }
+
+    // Call the function to fetch and display IP address information
+    getIpInfo();
+  </script>
+</body>
+</html>
