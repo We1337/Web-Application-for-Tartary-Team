@@ -27,8 +27,18 @@
 
     <!-- Canonical URL to avoid duplicate content issues -->
     <link rel="canonical" href="https://we1337.github.io/Web-Application-for-Tartary-Team/">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MSDBC3S02"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-</head>
+        gtag('config', 'G-1MSDBC3S02');
+    </script>
+    
+    </head>
 
 <body>
     <div>
@@ -46,11 +56,15 @@
                 </div>
                 <div id="navbarMenuHero1" class="navbar-menu">
                     <div class="navbar-end">
-                    <!--
-                        <a id="navevents" class="navbar-item" href="./template/ctf.html">
-                            CTF-Event
+                        <a id="tutorial" class="navbar-item" href="tutorial/tutorial.html">
+                            Tutorial
                         </a>
-                    --> 
+                        <a id="blog" class="navbar-item" href="blogs/blog.html">
+                            Blog
+                        </a>
+                        <a id="navevents" class="navbar-item" href="games/typing/index.html">
+                            Typing-Test
+                        </a>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <div id="navmore" class="navbar-link">
                                 More
