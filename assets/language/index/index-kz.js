@@ -1,4 +1,7 @@
-function loadLanguagekk() { 
+function loadLanguagekk() {
+    document.getElementById('navtutorials').textContent = "Нұсқаулықтар";
+    document.getElementById('navblogs').textContent = "Блогтар";
+    document.getElementById('navtools').textContent = "Құралдар";
     document.getElementById('navmore').textContent = "Көбірек";
     document.getElementById('navabout').textContent = "Туралы";
     document.getElementById('navcontact').textContent = "Байланыс";

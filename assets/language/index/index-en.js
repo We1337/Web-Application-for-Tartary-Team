@@ -1,4 +1,7 @@
 function loadLanguageen() {
+    document.getElementById('navtutorials').textContent = "Tutorials";
+    document.getElementById('navblogs').textContent = "Blogs";
+    document.getElementById('navtools').textContent = "Tools";
     document.getElementById('navmore').textContent = "More";
     document.getElementById('navabout').textContent = "About";
     document.getElementById('navcontact').textContent = "Contact";
