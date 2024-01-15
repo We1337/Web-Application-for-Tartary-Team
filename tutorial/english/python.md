@@ -1697,7 +1697,7 @@ Here, `nonlocal` is used to indicate that `outer_var` inside `inner_function` re
 
 Understanding the scope and lifetime of variables is crucial for writing well-organized and bug-free code. It allows you to manage data effectively, avoid naming conflicts, and ensures that variables are used where and when they are intended. Whether dealing with local or global variables, being aware of their scope and lifetime contributes to creating robust and maintainable Python programs. Happy coding!
 
-# Data Structures
+## Data Structures
 
 Data structures in Python are specialized formats for organizing and storing data. These structures provide efficient ways to perform operations like insertion, deletion, and traversal of data. Python offers several built-in data structures, each serving a specific purpose. Let's explore some of the fundamental data structures in Python.
 
@@ -2058,7 +2058,7 @@ index = my_list.index(3)  # Returns the index of the first occurrence of 3
 
 When working with arrays in Python, lists provide a flexible and easy-to-use option for most scenarios. However, if you're dealing with large arrays of numeric values and memory efficiency is crucial, the `array` module can offer a more optimized solution. Understanding the characteristics and use cases of both lists and arrays from the `array` module allows you to make informed decisions based on your specific programming needs. Happy coding!
 
-# Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
 Object-Oriented Programming (OOP) is a programming paradigm that uses objects, which bundle data and methods that operate on the data, to design and implement software. In Python, OOP is a fundamental and powerful approach for creating modular, reusable, and maintainable code. Let's explore the key concepts of OOP in Python.
 
